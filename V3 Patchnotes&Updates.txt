@@ -1,0 +1,36 @@
+Version 3 (1.3 / 3.0) - The Analytics & Security Update
+NEW Features & Changes:
+
+Permanent SQLite Database (v14.db): Completely overhauled the backend. All checkouts are now permanently and securely saved to a local database file, even if the Dashboard history is cleared.
+
+Advanced Analytics Data Table: Replaced the basic text list with a professional, sortable JavaFX TableView grid with clean, solid-colored rows.
+
+Chronological Game Sequencing: Analytics automatically numbers every session chronologically per day (e.g., [Game #1], [Game #2]).
+
+Open-Ended Date Filtering: Added "From Date" and "To Date" search filters. Selecting only a "From" date automatically pulls all history from that day up to the current second.
+
+Client Tracking System: Introduced a pop-up modal on session start to track client names. Includes a "Skip (No Name)" failsafe button for walk-ins.
+
+PIN-Protected Settings: The backend management tab is now locked behind an admin PIN (Default: 0000) to secure table counts, toggles, and pricing.
+
+Live Billing Engine: The checkout logic now queries the database at the exact millisecond a session ends, instantly applying price changes without needing an app restart.
+
+Failsafe System Defaults: App now generates its initial database with 0.00 pricing and all toggles set to OFF to prevent accidental phantom charges on the first launch.
+
+Structured UI Borders: Implemented the .bordered-panel CSS architecture to cleanly section off the UI into a strict 2-column layout (Tables take 2/3 of screen, Controls/Data take 1/3).
+
+Developer Watermark: Added an etched-glass style @anthony_mishriky watermark (bottom right). Features dynamic CSS opacity that automatically adjusts for perfect visibility in both Light (25%) and Dark (15%) modes. Codebases now feature hardcoded developer attribution headers.
+
+Retained Core Features (From Previous Versions):
+
+Deliberate two-step "Select -> Action" dashboard workflow.
+
+Dynamic Standard/VIP table grid with Green/Yellow/Red/Blue state coding.
+
+Real-time live session timers on occupied tables.
+
+Optional VIP minimum charge enforcement.
+
+Clearable Daily Dashboard History list for the active shift.
+
+Global Light/Dark mode UI support.

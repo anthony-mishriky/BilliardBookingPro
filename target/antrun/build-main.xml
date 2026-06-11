@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy file="C:\Users\antho\OneDrive\Documents\NetBeansProjects\Billiard_Booking_System_Playground\target/billiardbooking-1.3-SNAPSHOT.jar" todir="C:\Users\antho\OneDrive\Documents\NetBeansProjects\Billiard_Booking_System_Playground\target/app-files" />
+  </target>
+</project>

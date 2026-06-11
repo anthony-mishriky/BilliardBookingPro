@@ -1,0 +1,131 @@
+/* GLOBAL DARK THEME BACKGROUNDS */
+.dark-theme, .dark-theme .tab-content-area, .dark-theme .viewport {
+    -fx-background-color: #1E1E1E;
+}
+
+.dark-theme .label, .dark-theme .check-box {
+    -fx-text-fill: white;
+}
+
+/* BORDERED PANELS */
+.bordered-panel {
+    -fx-border-color: #bdc3c7; /* Light mode border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-padding: 15px;
+    -fx-background-radius: 8px;
+}
+.dark-theme .bordered-panel {
+    -fx-border-color: #34495e; /* Dark mode border */
+}
+
+/* STANDARD BUTTONS */
+.action-btn {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+.action-btn:hover {
+    -fx-background-color: #2c3e50;
+}
+
+/* TABLE BUTTONS */
+.table-btn {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 3);
+}
+.table-std {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+}
+.table-vip {
+    -fx-background-color: #f1c40f;
+    -fx-text-fill: #1E1E1E;
+}
+.table-occupied {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+}
+.table-selected {
+    -fx-border-color: #3498db;
+    -fx-border-width: 4px;
+    -fx-border-radius: 8;
+}
+
+/* LIST VIEW */
+.list-view {
+    -fx-background-color: transparent;
+}
+.dark-theme .list-view .list-cell {
+    -fx-background-color: #2c3e50;
+    -fx-text-fill: white;
+}
+.dark-theme .list-view .list-cell:empty {
+    -fx-background-color: transparent;
+}
+
+/* DATA TABLE (ANALYTICS) - LIGHT MODE (DEFAULTS) */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+}
+.table-view .column-header-background {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 5px 5px 0 0;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+.table-view .cell {
+    -fx-text-fill: #2c3e50;
+    -fx-alignment: CENTER-LEFT;
+}
+.table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #ecf0f1 transparent;
+    -fx-border-width: 0 0 1px 0;
+}
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+}
+.table-row-cell:selected .cell {
+    -fx-text-fill: white;
+}
+
+/* DATA TABLE (ANALYTICS) - DARK MODE OVERRIDES */
+.dark-theme .table-view {
+    -fx-border-color: #34495e;
+}
+.dark-theme .table-view .column-header-background {
+    -fx-background-color: #2c3e50;
+}
+.dark-theme .table-view .column-header .label {
+    -fx-text-fill: white;
+}
+.dark-theme .table-view .cell {
+    -fx-text-fill: white;
+}
+.dark-theme .table-row-cell {
+    -fx-background-color: #1E1E1E;
+    -fx-border-color: transparent transparent #2c3e50 transparent;
+}
+
+/* WATERMARK */
+.watermark {
+    -fx-text-fill: rgba(0, 0, 0, 0.25); 
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+.dark-theme .watermark {
+    -fx-text-fill: rgba(255, 255, 255, 0.15); 
+}

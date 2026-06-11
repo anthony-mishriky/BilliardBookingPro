@@ -1,0 +1,20 @@
+Version 2 (1.2) - Core Foundation
+Core Features & Mechanics:
+
+Dynamic Table Grid: Visual layout supporting custom quantities of Standard and VIP tables.
+
+Color-Coded Status UI: Instant visual feedback for table states (Green = Standard Available, Yellow = VIP Available, Red = Occupied, Blue Border = Selected).
+
+Deliberate Action Workflow: Two-step process (Select Table -> Click Start/Checkout) to eliminate accidental double-clicks during fast-paced shifts.
+
+Live Session Timers: Real-time digital clocks tracking active durations directly on the occupied table buttons.
+
+Customizable Billing Rates: Ability to set distinct hourly rates for Standard and VIP tables.
+
+VIP Minimums: Optional toggle to enforce a minimum flat charge on VIP tables regardless of time played.
+
+Daily Dashboard History: A quick-glance list on the side panel displaying the current shift's completed checkouts.
+
+Dashboard Data Management: Dedicated buttons to manually "Load Daily History" or "Clear Dashboard History" to keep the screen uncluttered.
+
+Light/Dark Mode: Full CSS theming support with a toggle to switch between light and dark aesthetics.
